@@ -9,15 +9,15 @@ jobs:
     runs-on: ubuntu-20.04
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
-      - name: Checkout
+      - name: Checkout 📥
         uses: actions/checkout@v4
-      - name: Setup Node.js
-      - uses: oven-sh/setup-bun@v1
-      - name: Install dependencies
+      - name: Setup Bun 👷
+        uses: oven-sh/setup-bun@v1
+      - name: Install dependencies 📦
         run: bun i
-      - name: Build TypeScript
+      - name: Build TypeScript 🏗️
         run: bun run build
-      - name: Release
+      - name: Release package 🚚
         run: bunx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
