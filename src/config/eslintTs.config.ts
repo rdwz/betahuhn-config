@@ -1,12 +1,18 @@
-import { Linter } from "eslint";
+import type { Linter } from "eslint";
 
 const options: Linter.Config = {
-    parser: 'vue-eslint-parser',
-	parserOptions: {
-		parser: 'babel-eslint',
-        ecmaVersion: 2018,
-        sourceType: "module"
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+		ecmaVersion: 2018,
+		sourceType: 'module'
 	},
+	plugins: [
+		'@typescript-eslint'
+	],
+	extends: [
+		'plugin:@typescript-eslint/eslint-recommended',
+		'plugin:@typescript-eslint/recommended'
+	],
 	env: {
 		browser: true,
 		node: true,
@@ -14,11 +20,8 @@ const options: Linter.Config = {
 		mocha: true,
 		es6: true
 	},
-    extends: [
-        'plugin:vue/essential',
-        'eslint:recommended'
-    ],
 	rules: {
+        '@typescript-eslint/no-explicit-any': 0,
 		'no-cond-assign': [ 2, 'always' ],
 		'no-constant-condition': 2,
 		'no-dupe-args': 2,

@@ -1,14 +1,10 @@
-import { Options } from "semantic-release";
-import { readFileSync } from "fs";
+import type { Options } from "semantic-release";
+import { readFileSync } from "node:fs";
 import dateFormat from "dateformat";
-import { join } from "path";
+import { join } from "node:path";
 
-const template = readFileSync(
-  join(__dirname, "helpers", "default-template.hbs")
-).toString();
-const commitTemplate = readFileSync(
-  join(__dirname, "helpers", "commit-template.hbs")
-).toString();
+const template = readFileSync(join(__dirname, "helpers", "default-template.hbs")).toString();
+const commitTemplate = readFileSync(join(__dirname, "helpers", "commit-template.hbs")).toString();
 
 const options: Options = {
   branches: [
@@ -80,13 +76,15 @@ const options: Options = {
   ],
 };
 
-export const main: Options = {
+export const master: Options = {
   ...options,
   branches: ["main"],
 };
+
 export const production: Options = {
   ...options,
   branches: ["production"],
 };
+
 export const release = (branches: string | string[]) =>
   ({ ...options, branches } as Options);
