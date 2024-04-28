@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var options = {
     parserOptions: {
         ecmaVersion: 2018,
@@ -31,7 +31,7 @@ var options = {
         'use-isnan': 2,
         'valid-typeof': 2,
         'no-unexpected-multiline': 2,
-        'eqeqeq': [2, 'always', { "null": 'ignore' }],
+        'eqeqeq': [2, 'always', { null: 'ignore' }],
         'new-parens': 2,
         'no-array-constructor': 2,
         'no-lonely-if': 2,
@@ -45,7 +45,7 @@ var options = {
         'no-this-before-super': 2,
         'prefer-const': 2,
         'no-empty': [2, { allowEmptyCatch: true }],
-        'valid-jsdoc': [2, { prefer: { "return": 'returns' }, requireParamDescription: false, requireReturnDescription: false, requireReturn: false }],
+        'valid-jsdoc': [2, { prefer: { return: 'returns' }, requireParamDescription: false, requireReturnDescription: false, requireReturn: false }],
         'dot-location': [2, 'property'],
         'wrap-iife': 2,
         'array-bracket-spacing': [2, 'always', { objectsInArrays: false, arraysInArrays: false }],
@@ -125,5 +125,5 @@ var options = {
         'grouped-accessor-pairs': [2, 'getBeforeSet']
     }
 };
-exports["default"] = options;
+exports.default = options;
 //# sourceMappingURL=eslint.config.js.map
