@@ -1,3 +1,31 @@
+## [v1.0.0] - 2024-04-28
+
+[Release notes](https://github.com/rdwz/betahuhn-config/releases/tag/v1.0.0) · [Tag](https://github.com/rdwz/betahuhn-config/tree/v1.0.0) · Archive ([zip](https://github.com/rdwz/betahuhn-config/archive/v1.0.0.zip) · [tar.gz](https://github.com/rdwz/betahuhn-config/archive/v1.0.0.tar.gz))
+
+### New features
+
+- [`824150d`](https://github.com/rdwz/betahuhn-config/commit/824150d)  Add vue eslint config
+- [`253559c`](https://github.com/rdwz/betahuhn-config/commit/253559c)  Add ts eslint config
+- [`63f8361`](https://github.com/rdwz/betahuhn-config/commit/63f8361)  Add COMMIT_ASSETS option
+
+### Updates
+
+- [`73a86a7`](https://github.com/rdwz/betahuhn-config/commit/73a86a7)   Rename master to main
+- [`5962ca0`](https://github.com/rdwz/betahuhn-config/commit/5962ca0)  Rename master to main
+
+### Bug fixes
+
+- [`f139b9e`](https://github.com/rdwz/betahuhn-config/commit/f139b9e)  disable new-cap
+- [`e754f6d`](https://github.com/rdwz/betahuhn-config/commit/e754f6d)  Set publish access to public
+
+### Dependency updates
+
+- [`e51b46d`](https://github.com/rdwz/betahuhn-config/commit/e51b46d)  Upgrade dependencies
+
+### Breaking changes
+
+- [`0193f37`](https://github.com/rdwz/betahuhn-config/commit/0193f37)  First release
+
 ## [v1.2.0] - 2021-09-06
 
 [Release notes](https://github.com/betahuhn/config/releases/tag/v1.2.0) · [Compare](https://github.com/betahuhn/config/compare/v1.1.0...v1.2.0) · [Tag](https://github.com/betahuhn/config/tree/v1.2.0) · Archive ([zip](https://github.com/betahuhn/config/archive/v1.2.0.zip) · [tar.gz](https://github.com/betahuhn/config/archive/v1.2.0.tar.gz))
