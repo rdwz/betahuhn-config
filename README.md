@@ -1,6 +1,7 @@
 # 🛠️ BetaHuhn config files
 
-This repository contains common configuration files for my projects. It is based on [Koj's](https://github.com/koj-co) [config repo](https://github.com/koj-co/config), I only changed the linter to eslint and modified some other things to my preference.
+This repository contains common configuration files for my projects.
+It is based on [Koj's](https://github.com/koj-co) [config repo](https://github.com/koj-co/config), I only changed the linter to eslint and modified some other things to my preference.
 
 ## 💻 Usage
 
@@ -12,7 +13,8 @@ npm install --save-dev @redwerkz/betahuhn-config
 
 ### Eslint
 
-This config includes the ESLint configuration I use in my personal projects. To use this configuration, create an ESLint config file `.eslintrc.js` in the project root:
+This config includes the ESLint configuration I use in my personal projects.
+To use this configuration, create an ESLint config file `.eslintrc.js` in the project root:
 
 ```js
 module.exports = require("@redwerkz/betahuhn-config").eslint;
@@ -20,7 +22,8 @@ module.exports = require("@redwerkz/betahuhn-config").eslint;
 
 ### Semantic Release
 
-I use [Semantic Release](https://github.com/semantic-release/semantic-release) for automated deployments of my packages. The configuration adds support for [Gitmoji](https://gitmoji.carloscuesta.me) commits, creating release notes with a `CHANGELOG.md`, and publishing to GitHub and npm.
+I use [Semantic Release](https://github.com/semantic-release/semantic-release) for automated deployments of my packages.
+The configuration adds support for [Gitmoji](https://gitmoji.carloscuesta.me) commits, creating release notes with a `CHANGELOG.md`, and publishing to GitHub and npm.
 
 Create a Semantic Release config file `release.config.js` in the project root.
 If you want to release the `main` or `production` branches, you can use the import directly:
@@ -38,12 +41,15 @@ module.exports = require("@redwerkz/betahuhn-config").release("branch-name");
 Here are all the emojis which trigger a new release:
 
 **Major:**
+
 - :boom: = Introduce breaking changes
 
 **Minor:**
+
 - :sparkles: = Introduce new features
 
 **Patch:**
+
 - :bug: = Bug fix
 - :ambulance: = Critical hotfix
 - :lock: = Fix security issues
