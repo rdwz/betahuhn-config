@@ -72,7 +72,7 @@ const options: Options = {
   ],
 };
 
-export const master: Options = {
+export const main: Options = {
   ...options,
   branches: ["main"],
 };
