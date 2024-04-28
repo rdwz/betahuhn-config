@@ -4,10 +4,10 @@ This repository contains common configuration files for my projects. It is based
 
 ## 💻 Usage
 
-Install the package as a dev dependency from [npm](https://www.npmjs.com/package/@betahuhn/config):
+Install the package as a dev dependency from [npm](https://www.npmjs.com/package/@redwerkz/betahuhn-config):
 
 ```bash
-npm install --save-dev @betahuhn/config
+npm install --save-dev @redwerkz/betahuhn-config
 ```
 
 ### Eslint
@@ -15,7 +15,7 @@ npm install --save-dev @betahuhn/config
 This config includes the ESLint configuration I use in my personal projects. To use this configuration, create an ESLint config file `.eslintrc.js` in the project root:
 
 ```js
-module.exports = require("@betahuhn/config").eslint;
+module.exports = require("@redwerkz/betahuhn-config").eslint;
 ```
 
 ### Semantic Release
@@ -32,7 +32,7 @@ module.exports = require("@redwerkz/betahuhn-config").main;
 Alternately, you can specify the branch you want to release:
 
 ```js
-module.exports = require("@betahuhn/config").release("branch-name");
+module.exports = require("@redwerkz/betahuhn-config").release("branch-name");
 ```
 
 Here are all the emojis which trigger a new release:
@@ -54,4 +54,4 @@ Here are all the emojis which trigger a new release:
 
 ## 📄 License
 
-[MIT](./LICENSE) © [Maximilian Schiller](https://github.com/betahuhn) and [Koj](https://koj.co)
+[MIT](./LICENSE) © [Marc Redwerkz](https://github.com/rdwz), [Maximilian Schiller](https://github.com/betahuhn) and [Koj](https://koj.co)

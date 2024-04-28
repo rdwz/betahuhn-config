@@ -1,5 +1,5 @@
 {
-  "name": "@betahuhn/config",
+  "name": "@redwerkz/betahuhn-config",
   "version": "1.2.0",
   "description": "Common configuration files for my projects",
   "files": [
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/betahuhn/config.git"
+    "url": "git+https://github.com/rdwz/betahuhn-config.git"
   },
   "keywords": [
     "MIT"
   ],
-  "author": "Maximilian Schiller <hello@mxis.ch>",
+  "author": "Marc Redwerkz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/betahuhn/config/issues"
+    "url": "https://github.com/rdwz/betahuhn-config/issues"
   },
-  "homepage": "https://github.com/betahuhn/config#readme",
+  "homepage": "https://github.com/rdwz/betahuhn-config#readme",
   "devDependencies": {
     "@types/dateformat": "^3.0.1",
     "@types/eslint": "^7.2.6",
