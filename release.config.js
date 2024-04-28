@@ -1,1 +1,1 @@
-module.exports = require("./dist").releaseMain;
+module.exports = async () => (await import("./dist")).releaseMain();
