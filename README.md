@@ -22,10 +22,11 @@ module.exports = require("@betahuhn/config").eslint;
 
 I use [Semantic Release](https://github.com/semantic-release/semantic-release) for automated deployments of my packages. The configuration adds support for [Gitmoji](https://gitmoji.carloscuesta.me) commits, creating release notes with a `CHANGELOG.md`, and publishing to GitHub and npm.
 
-Create a Semantic Release config file `release.config.js` in the project root. If you want to release the `master` or `production` branches, you can use the import directly:
+Create a Semantic Release config file `release.config.js` in the project root.
+If you want to release the `main` or `production` branches, you can use the import directly:
 
 ```js
-module.exports = require("@betahuhn/config").master;
+module.exports = require("@redwerkz/betahuhn-config").main;
 ```
 
 Alternately, you can specify the branch you want to release:
