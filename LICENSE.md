@@ -1,5 +1,6 @@
-MIT License
+# MIT License
 
+Copyright (c) 2024 Marc Redwerkz
 Copyright (c) 2020 Maximilian Schiller and Anand Chowdhary
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
